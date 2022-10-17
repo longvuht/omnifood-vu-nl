@@ -1,0 +1,11 @@
+.cta {
+  &__container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to right bottom, #eb984e, #67e22);
+  }
+}

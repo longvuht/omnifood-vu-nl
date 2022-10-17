@@ -1,0 +1,11 @@
+.header {
+  &__container {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__image {
+    height: 2.2rem;
+  }
+}

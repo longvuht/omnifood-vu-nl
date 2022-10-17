@@ -1,0 +1,10 @@
+.pricing {
+  &__heading {
+    margin-bottom: 9.6rem;
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.4rem;
+  }
+}

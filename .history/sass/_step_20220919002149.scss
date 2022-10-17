@@ -1,0 +1,26 @@
+.step {
+  &__heading {
+    margin-bottom: 9.6rem;
+  }
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.6rem 6.4rem;
+  }
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img {
+      width: 35%;
+    }
+    &::before {
+      content: "";
+      width: 60%;
+      height: 60%;
+      background-color: $primary-color;
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  &__container {
+    padding: 9.6rem;
+  }
+  &__heading {
+    margin-bottom: 9.6rem;
+  }
+  .testimonial
+}

@@ -1,0 +1,15 @@
+.meals {
+  &__heading {
+    text-align: center;
+    margin-bottom: 9.6rem;
+  }
+  &__sub-heading {
+    text-align: center;
+  }
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 6.4rem;
+    margin-bottom: 4.8rem;
+  }
+}
